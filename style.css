@@ -119,3 +119,59 @@ body {
   color: white;
   border-radius: 10px;
 }
+
+
+@media (max-width:870px) {
+  .header{
+    padding: 10px;
+  }
+  .header ul li button{
+    width: 70px;
+    font-size: 14px;
+  }
+
+  .main h1{
+    font-size: 28px;
+  }
+
+  .main P{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:630px) {
+  .main{
+    padding: 10px;
+  }
+
+  .main h1{
+    font-size: 25px;
+  }
+  .countdown ul li {
+    width: 80px;
+    height: 80px;
+  }
+
+  .countdown ul li h3{
+    font-size: 30px;
+  }
+
+  .countdown ul li span{
+    font-size: 14px
+  };
+}
+
+@media (max-width:500px) {
+  .countdown ul li {
+    width: 60px;
+    height: 60px;
+  }
+
+  .countdown ul li h3{
+   font-size: 25px;
+  }
+
+  .countdown ul li span{
+   font-size: 10px;
+  }
+}
